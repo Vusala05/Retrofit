@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         loadData()
     }
 
+
     private fun loadData() {
         // Create retrofit object
         val retrofit = Retrofit.Builder()
